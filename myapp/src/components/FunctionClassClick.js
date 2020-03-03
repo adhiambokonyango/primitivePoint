@@ -7,6 +7,7 @@ console.log('clicked the button')
 }
 
 render(){
+//console.log('')
 return(
 <div>
 <button onClick={this.clickHandler}>clickMe</button>
