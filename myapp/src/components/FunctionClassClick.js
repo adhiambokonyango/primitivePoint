@@ -9,7 +9,7 @@ console.log('clicked the button')
 render(){
 return(
 <div>
-<button onClick={this.clickHandler}>clickMe</button>
+<button onClick={this.clickHandler}>FunctionClassClick</button>
 </div>
 )
 }
