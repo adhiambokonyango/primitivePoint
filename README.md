@@ -1,2 +1,2 @@
 # primitivePoint
- javaprog
+react, redux
