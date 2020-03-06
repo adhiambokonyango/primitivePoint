@@ -11,10 +11,18 @@ import FunctionClassClick from './components/FunctionClassClick'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
+import Stylesheet from './components/Stylesheet'
+import Form from './components/Form'
+import LifecycleA from './components/LifecycleA'
+import PureComp from './components/PureComp'
 
 function App() {
   return (
     <div className="App">
+      <PureComp />
+      <LifecycleA />
+      <Form />
+      <Stylesheet />
       <NameList />
       <UserGreeting />
       <ParentComponent />
