@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from
+import UpdatedComponeet from './WithCounter'
 
 class Counter extends Component{
 
@@ -27,4 +28,4 @@ return(
 }
 }
 
-export default Counter
+export default UpdatedComponeet(Counter)
